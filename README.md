@@ -51,7 +51,7 @@ Before training the [T5 small](https://github.com/google-research/text-to-text-t
 
 
 * ##### Additional:
-    Under <a href='https://github.com/code-comment/anon/tree/main/Miscellaneous'>Miscellaneous</a>, you can find all the additional materials we used for computing the results (i.e; the Java program which relies on GumTree)
+    Under <a href='https://github.com/lance-log/lance/tree/main/Miscellaneous'>Miscellaneous</a>, you can find all the additional materials we used for computing the results (i.e; the Java program which relies on GumTree)
 
 
 
