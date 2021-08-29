@@ -29,7 +29,7 @@ Before training the [T5 small](https://github.com/google-research/text-to-text-t
 
     The datasets for pre-training, fine-tuning, validating and finally testing LANCE can be found at this link: https://drive.google.com/drive/folders/1D12y-CIJTYLxMeSmGQjxEXjTEzQImgaH?usp=sharing
 
-* ##### Pre-trainig/Fine-tuning 
+* ##### Pre-training/Fine-tuning 
   
     To pre-train and then, fine-tune LANCE, please use the following:
     - <a href ='https://github.com/lance-log/lance/blob/main/Code/Pre-training/Pre_training.ipynb'>Pre-Training</a> 
