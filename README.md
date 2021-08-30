@@ -1,15 +1,14 @@
 # Using Deep Learning To Support Logging Activities
 
-In thiw work we present LANCE(Log stAtemeNt reCommEnder), a fully-fledge deep learning approach for supporting the task of log statemtent injection in the context of Java.
-LANCE, is built on the recently proposed Text-To-Text Transfer Transformer (T5) architecture (https://github.com/google-research/text-to-text-transfer-transformer), which has been proved to reach SOTA results when supporting <a href="">code-related tasks</a>
+We present LANCE(Log stAtemeNt reCommEnder), a DL-based approach for supporting the task of log statement generation and injection in the context of Java. LANCE is built on the recently proposed  <a href="https://github.com/google-research/text-to-text-transfer-transformer">Text-To-Text Transfer Transformer (T5) architecture</a>
 
 
 #### How to experiment with LANCE
 
-Before training the [T5 small](https://github.com/google-research/text-to-text-transfer-transformer), namely the core of LANCE, it is important to also train a new tokenizer (sentencepiece model) to accomodate the expanded vocabulary given by the java programming language. For such, we used the raw pre-training instances(Java corpus) + English sentences from the well known C4 dataset
-
 
 *  ##### How to train a new <a href='https://github.com/google/sentencepiece/blob/master/python/README.md'>SentencePiece Model</a>
+
+   Before training the [T5 small](https://github.com/google-research/text-to-text-transfer-transformer), namely the core of LANCE, it is important to also train a      new tokenizer (sentencepiece model) to accomodate the expanded vocabulary given by the java programming language. For such, we used the raw pre-training instances(Java corpus) + English sentences from the well known C4 dataset
 
     *Pythonic way*
 
@@ -21,8 +20,8 @@ Before training the [T5 small](https://github.com/google-research/text-to-text-t
 
     Under this path we also provide our trained tokenizer: https://github.com/lance-log/lance/tree/main/Code
 
-* ##### Set up a GCS Bucket
-    To Set up a new GCS Bucket for training and fine-tuning a T5 Model, please follow the orignal guide provided by <a href='https://www.google.com'> Google </a> Here the link: https://cloud.google.com/storage/docs/quickstart-console
+* ##### Setup a Google Cloud Storage (GCS) Bucket
+    To setup a new GCS Bucket for training and fine-tuning a T5 Model, please follow the original guide provided by Google: Here the link: https://cloud.google.com/storage/docs/quickstart-console
 
 
 * ##### Datasets
@@ -51,7 +50,7 @@ Before training the [T5 small](https://github.com/google-research/text-to-text-t
 
 
 * ##### Additional:
-    Under <a href='https://github.com/lance-log/lance/tree/main/Miscellaneous'>Miscellaneous</a>, you can find all the additional materials we used for computing the results (i.e; the Java program which relies on GumTree)
+    Under <a href='https://github.com/lance-log/lance/tree/main/Miscellaneous'>Miscellaneous</a>, you can find the additional script used for the data analysis and the exact hyper-parameters configuration we employed in the study.
 
 
 
