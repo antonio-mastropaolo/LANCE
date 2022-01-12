@@ -1,4 +1,4 @@
-# Using Deep Learning To Support Logging Activities
+# Using Deep Learning to Generate Complete Log Statements
 
 We present LANCE(Log stAtemeNt reCommEnder), a DL-based approach for supporting the task of log statement generation and injection in the context of Java. LANCE is built on the recently proposed  <a href="https://github.com/google-research/text-to-text-transfer-transformer">Text-To-Text Transfer Transformer (T5) architecture</a>
 
