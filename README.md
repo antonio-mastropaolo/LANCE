@@ -18,7 +18,7 @@ We present LANCE(Log stAtemeNt reCommEnder), a DL-based approach for supporting 
     spm.SentencePieceTrainer.train('--input=all_sp.txt --model_prefix=LOG_SP --vocab_size=32000 --bos_id=-1  --eos_id=1 --unk_id=2 --pad_id=0 --shuffle_input_sentence=true --character_coverage=1.0 --user_defined_symbols=“<LOG_STMT>”') 
     ```
 
-    Under this path we also provide our trained tokenizer: https://github.com/lance-log/lance/tree/main/Code
+    Under this path we also provide our trained tokenizer: https://github.com/antonio-mastropaolo/LANCE/tree/main/Code
 
 * ##### Setup a Google Cloud Storage (GCS) Bucket
     To setup a new GCS Bucket for training and fine-tuning a T5 Model, please follow the original guide provided by Google: Here the link: https://cloud.google.com/storage/docs/quickstart-console
