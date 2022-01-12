@@ -31,8 +31,8 @@ We present LANCE(Log stAtemeNt reCommEnder), a DL-based approach for supporting 
 * ##### Pre-training/Fine-tuning 
   
     To pre-train and then, fine-tune LANCE, please use the following:
-    - <a href ='https://github.com/lance-log/lance/blob/main/Code/Pre-training/Pre_training.ipynb'>Pre-Training</a> 
-    -  <a href ='https://github.com/lance-log/lance/blob/main/Code/Fine-tuning/Fine_Tuning.ipynb'>Fine-Tuning</a> 
+    - <a href ='https://github.com/antonio-mastropaolo/LANCE/blob/main/Code/Pre-training/Pre_training.ipynb'>Pre-Training</a> 
+    -  <a href ='https://github.com/antonio-mastropaolo/LANCE/blob/main/Code/Fine-tuning/Fine_Tuning.ipynb'>Fine-Tuning</a> 
 
 
 
@@ -50,7 +50,7 @@ We present LANCE(Log stAtemeNt reCommEnder), a DL-based approach for supporting 
 
 
 * ##### Additional:
-    Under <a href='https://github.com/lance-log/lance/tree/main/Miscellaneous'>Miscellaneous</a>, you can find the additional script used for the data analysis and the exact hyper-parameters configuration we employed in the study.
+    Under <a href='https://github.com/antonio-mastropaolo/LANCE/tree/main/Miscellaneous'>Miscellaneous</a>, you can find the additional script used for the data analysis and the exact hyper-parameters configuration we employed in the study.
 
 
 
